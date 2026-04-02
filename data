@@ -1,0 +1,53 @@
+# 📦 Mô tả Dataset
+
+Bộ dữ liệu này được thu thập bằng cách cào dữ liệu từ website thương mại điện tử Phong Vũ. Mục tiêu của dataset là phục vụ cho bài toán sinh mô tả sản phẩm tự động bằng tiếng Việt sử dụng mô hình ViT5.
+
+---
+
+## 📊 Nội dung dữ liệu
+
+Mỗi mẫu dữ liệu bao gồm:
+
+- Tên sản phẩm  
+- Thông số kỹ thuật (CPU, RAM, bộ nhớ, GPU, v.v.)  
+- Giá sản phẩm  
+- Mô tả sản phẩm (nếu có)  
+
+---
+
+## 🔄 Tiền xử lý dữ liệu
+
+Dữ liệu sau khi thu thập được xử lý qua các bước:
+
+- Loại bỏ thẻ HTML và ký tự đặc biệt  
+- Chuẩn hóa văn bản tiếng Việt  
+- Chuyển đổi về dạng text-to-text  
+
+Ví dụ:
+
+Input: Máy chiếu Epson EB W50
+  
+Output: Máy chiếu ngày nay không chỉ đơn thuần là công cụ trình chiếu mà còn là trợ thủ đắc lực trong công việc, giảng dạy và giải trí.  Với sự phát triển của công nghệ, các dòng máy chiếu hiện đại ngày càng được nâng cấp về chất lượng hình ảnh, độ bền và tính linh hoạt"
+  
+---
+
+## 🎯 Mục đích sử dụng
+
+Dataset được sử dụng cho:
+
+- Huấn luyện mô hình sinh văn bản (ViT5, T5, GPT)  
+- Nghiên cứu xử lý ngôn ngữ tự nhiên tiếng Việt  
+- Ứng dụng trong thương mại điện tử (tự động tạo mô tả sản phẩm)  
+
+---
+
+## 📥 Tải Dataset
+
+Link: https://drive.google.com/drive/folders/1GD5XU3K4j0yz_iPfAr4lshsrwQS1Lq5y?usp=sharing
+
+---
+
+## ⚠️ Lưu ý
+
+Dataset được thu thập phục vụ mục đích học tập và nghiên cứu.  
+Mọi thông tin sản phẩm thuộc về các bên sở hữu tương ứng.
