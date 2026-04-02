@@ -1,0 +1,35 @@
+## 📥 Tải model
+
+Do kích thước lớn, model không được lưu trực tiếp trong repository.
+
+👉 [Tải model tại đây](https://drive.google.com/uc?id=1njBzldqd1nVXf69LUbgr9GecYEKVe31X)
+
+---
+
+## 📂 Hướng dẫn sử dụng model
+
+Sau khi tải về:
+
+1. Giải nén file (nếu là .zip)  
+2. Đặt thư mục `model` vào cùng cấp với project  
+
+---
+
+### 📁 Cấu trúc thư mục
+project/
+├── data/
+├── model/
+├── train.ipynb
+├── infer.ipynb
+└── README.md
+
+---
+
+## ⚠️ Lưu ý
+
+- Đảm bảo thư mục `model/` chứa đầy đủ các file như:
+  - `pytorch_model.bin`
+  - `config.json`
+  - `tokenizer_config.json`
+  - `spiece.model`
+- Nếu thiếu file, model sẽ không load được
