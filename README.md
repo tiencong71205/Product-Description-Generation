@@ -6,5 +6,3 @@ Automatic product description generation uses NLP and deep learning to create me
 ```bash
 git clone https://github.com/tiencong71205/Product-Description-Generation.git
 cd Product-Description-Generation
-pip install torch transformers sentencepiece
-python run_model
